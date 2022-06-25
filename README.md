@@ -40,4 +40,4 @@ docker rm --force winrm_server
 
 ## DockerHub
 
-- [peco602/winrm-windows-docker](https://hub.docker.com/repository/docker/peco602/winrm-windows-docker)
+- [peco602/winrm-windows-docker](https://hub.docker.com/r/peco602/winrm-windows-docker)
