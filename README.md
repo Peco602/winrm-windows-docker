@@ -9,19 +9,19 @@ You might want to have an integration test environment to try it out.
 ## Build the image
 
 ```ps1
-docker build -t winrm:1809 .
+docker build -t winrm:ltsc2022 .
 ```
 
 ## Run the container
 
 ```ps1
-docker run -d --name winrm_server winrm:1809
+docker run -d --name winrm_server winrm:ltsc2022
 ```
 
 or, if you want to expose WinRM ports:
 
 ```ps1
-docker run -d --name winrm_server -p 55985:5985 -p 55986:5986 winrm:1809
+docker run -d --name winrm_server -p 55985:5985 -p 55986:5986 winrm:ltsc2022
 ```
 
 ## Connect to the container via WinRM

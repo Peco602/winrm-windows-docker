@@ -1,4 +1,4 @@
-$TAG = "winrm:1809"
+$TAG = "winrm:ltsc2022"
 $NAME = "winrm_server"
 $USERNAME = "User"
 $PASSWORD = "Password12345!"
